@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4"
+    android:background="#fff4">
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress4"
+        android:layout_width="349"
+        android:layout_height="50"
+        android:background="#CCC4C4"
+        android:ems="10"
+        android:fontFamily="@font/roboto_medium"
+        android:hint="\tPhone"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:textColorHint="#100F0F"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress8"
+        tools:layout_editor_absoluteY="176dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress5"
+        android:layout_width="349"
+        android:layout_height="50"
+        android:background="#CCC4C4"
+        android:ems="10"
+        android:fontFamily="@font/roboto_medium"
+        android:hint="\tEmail"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:textColorHint="#201C1C"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextEmailAddress4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress4"
+        tools:layout_editor_absoluteY="263dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress6"
+        android:layout_width="349"
+        android:layout_height="50"
+        android:background="#CCC4C4"
+        android:ems="10"
+        android:fontFamily="@font/roboto_medium"
+        android:hint="\tPassword"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:textColorHint="#191616"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextEmailAddress5"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress5"
+        tools:layout_editor_absoluteY="354dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress7"
+        android:layout_width="349"
+        android:layout_height="50"
+        android:background="#CCC4C4"
+        android:ems="10"
+        android:fontFamily="@font/roboto_medium"
+        android:hint="\tBirthday"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:textColorHint="#120F0F"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextEmailAddress6"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress6"
+        tools:layout_editor_absoluteY="436dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress8"
+        android:layout_width="349dp"
+        android:layout_height="50dp"
+        android:background="#CCC4C4"
+        android:ems="10"
+        android:fontFamily="@font/roboto_medium"
+        android:hint="\tName"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:textColorHint="#141515"
+        android:textColorLink="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="103dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Register"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="33dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Male"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/radioButton2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="505dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Female"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/radioButton"
+        tools:layout_editor_absoluteY="505dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="288dp"
+        android:layout_height="61dp"
+        android:text="Register"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="575dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_medium"
+        android:text="When you agree to terms and conditions"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="659dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_vector"
+        tools:layout_editor_absoluteX="352dp"
+        tools:layout_editor_absoluteY="369dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
